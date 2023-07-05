@@ -1,0 +1,19 @@
+div a {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+div a::after {
+  display: block;
+  content: '';
+  background-image: url(./images/right-arrow-svgrepo-com.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  left: 20px;
+  position: relative;
+}
